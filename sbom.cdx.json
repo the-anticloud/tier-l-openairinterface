@@ -1,0 +1,648 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:bb09ee11-66bc-5347-8d50-2db4d49dd957",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-14T06:11:57Z",
+    "component": {
+      "type": "application",
+      "name": "L_OPENAIRINTERFACE",
+      "version": "29d5fa7d38bb",
+      "bom-ref": "pkg:generic/anticloud/L_OPENAIRINTERFACE@29d5fa7d38bb",
+      "purl": "pkg:generic/anticloud/L_OPENAIRINTERFACE@29d5fa7d38bb",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "29d5fa7d38bb1ee8935ef7ae30a396d53772ea4f"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/openairinterface/openairinterface5g"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "CUDA",
+      "version": "unspecified",
+      "purl": "pkg:generic/CUDA",
+      "bom-ref": "native/CUDA@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "CUDAToolkit",
+      "version": "unspecified",
+      "purl": "pkg:generic/CUDAToolkit",
+      "bom-ref": "native/CUDAToolkit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Git",
+      "version": "unspecified",
+      "purl": "pkg:generic/Git",
+      "bom-ref": "native/Git@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libconfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/libconfig",
+      "bom-ref": "native/libconfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cap",
+      "version": "unspecified",
+      "purl": "pkg:generic/cap",
+      "bom-ref": "native/cap@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenSSL",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenSSL",
+      "bom-ref": "native/OpenSSL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sctp",
+      "version": "unspecified",
+      "purl": "pkg:generic/sctp",
+      "bom-ref": "native/sctp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GTest",
+      "version": "unspecified",
+      "purl": "pkg:generic/GTest",
+      "bom-ref": "native/GTest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "benchmark",
+      "version": "unspecified",
+      "purl": "pkg:generic/benchmark",
+      "bom-ref": "native/benchmark@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "zmq",
+      "version": "unspecified",
+      "purl": "pkg:generic/zmq",
+      "bom-ref": "native/zmq@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "yaml-cpp",
+      "version": "unspecified",
+      "purl": "pkg:generic/yaml-cpp",
+      "bom-ref": "native/yaml-cpp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "FlatBuffers",
+      "version": "unspecified",
+      "purl": "pkg:generic/FlatBuffers",
+      "bom-ref": "native/FlatBuffers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Flatbuffers",
+      "version": "unspecified",
+      "purl": "pkg:generic/Flatbuffers",
+      "bom-ref": "native/Flatbuffers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "UHD",
+      "version": "unspecified",
+      "purl": "pkg:generic/UHD",
+      "bom-ref": "native/UHD@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Boost",
+      "version": "unspecified",
+      "purl": "pkg:generic/Boost",
+      "bom-ref": "native/Boost@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LimeSuite",
+      "version": "unspecified",
+      "purl": "pkg:generic/LimeSuite",
+      "bom-ref": "native/LimeSuite@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "SoapySDR",
+      "version": "unspecified",
+      "purl": "pkg:generic/SoapySDR",
+      "bom-ref": "native/SoapySDR@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dpdk",
+      "version": "unspecified",
+      "purl": "pkg:generic/dpdk",
+      "bom-ref": "native/dpdk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numa",
+      "version": "unspecified",
+      "purl": "pkg:generic/numa",
+      "bom-ref": "native/numa@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xran",
+      "version": "unspecified",
+      "purl": "pkg:generic/xran",
+      "bom-ref": "native/xran@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "armral",
+      "version": "unspecified",
+      "purl": "pkg:generic/armral",
+      "bom-ref": "native/armral@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libyang",
+      "version": "unspecified",
+      "purl": "pkg:generic/libyang",
+      "bom-ref": "native/libyang@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libnetconf2",
+      "version": "unspecified",
+      "purl": "pkg:generic/libnetconf2",
+      "bom-ref": "native/libnetconf2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libssh",
+      "version": "unspecified",
+      "purl": "pkg:generic/libssh",
+      "bom-ref": "native/libssh@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LibXml2",
+      "version": "unspecified",
+      "purl": "pkg:generic/LibXml2",
+      "bom-ref": "native/LibXml2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "bladeRF",
+      "version": "unspecified",
+      "purl": "pkg:generic/bladeRF",
+      "bom-ref": "native/bladeRF@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PkgConfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/PkgConfig",
+      "bom-ref": "native/PkgConfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "CLIBE3",
+      "version": "unspecified",
+      "purl": "pkg:generic/CLIBE3",
+      "bom-ref": "native/CLIBE3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "JSON_C",
+      "version": "unspecified",
+      "purl": "pkg:generic/JSON_C",
+      "bom-ref": "native/JSON_C@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PROTOBUFC",
+      "version": "unspecified",
+      "purl": "pkg:generic/PROTOBUFC",
+      "bom-ref": "native/PROTOBUFC@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenGL",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenGL",
+      "bom-ref": "native/OpenGL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "glfw3",
+      "version": "unspecified",
+      "purl": "pkg:generic/glfw3",
+      "bom-ref": "native/glfw3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LIBDPDK_AAL",
+      "version": "unspecified",
+      "purl": "pkg:generic/LIBDPDK_AAL",
+      "bom-ref": "native/LIBDPDK_AAL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PCAP",
+      "version": "unspecified",
+      "purl": "pkg:generic/PCAP",
+      "bom-ref": "native/PCAP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Doxygen",
+      "version": "unspecified",
+      "purl": "pkg:generic/Doxygen",
+      "bom-ref": "native/Doxygen@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "@angular-slider/ngx-slider",
+      "version": "^2.0.4",
+      "purl": "pkg:npm/@angular-slider/ngx-slider@^2.0.4",
+      "bom-ref": "npm/@angular-slider/ngx-slider@^2.0.4"
+    },
+    {
+      "type": "library",
+      "name": "@angular/animations",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/animations@^14.1.0",
+      "bom-ref": "npm/@angular/animations@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/cdk",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/cdk@^14.1.0",
+      "bom-ref": "npm/@angular/cdk@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/common",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/common@^14.1.0",
+      "bom-ref": "npm/@angular/common@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/compiler",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/compiler@^14.1.0",
+      "bom-ref": "npm/@angular/compiler@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/core",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/core@^14.1.0",
+      "bom-ref": "npm/@angular/core@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/flex-layout",
+      "version": "^14.0.0-beta.40",
+      "purl": "pkg:npm/@angular/flex-layout@^14.0.0-beta.40",
+      "bom-ref": "npm/@angular/flex-layout@^14.0.0-beta.40"
+    },
+    {
+      "type": "library",
+      "name": "@angular/forms",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/forms@^14.1.0",
+      "bom-ref": "npm/@angular/forms@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/material",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/material@^14.1.0",
+      "bom-ref": "npm/@angular/material@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/platform-browser",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/platform-browser@^14.1.0",
+      "bom-ref": "npm/@angular/platform-browser@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/platform-browser-dynamic",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/platform-browser-dynamic@^14.1.0",
+      "bom-ref": "npm/@angular/platform-browser-dynamic@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/router",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/router@^14.1.0",
+      "bom-ref": "npm/@angular/router@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "chart.js",
+      "version": "^3.8.2",
+      "purl": "pkg:npm/chart.js@^3.8.2",
+      "bom-ref": "npm/chart.js@^3.8.2"
+    },
+    {
+      "type": "library",
+      "name": "loader-utils",
+      "version": "^3.2.1",
+      "purl": "pkg:npm/loader-utils@^3.2.1",
+      "bom-ref": "npm/loader-utils@^3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "moment",
+      "version": "^2.29.3",
+      "purl": "pkg:npm/moment@^2.29.3",
+      "bom-ref": "npm/moment@^2.29.3"
+    },
+    {
+      "type": "library",
+      "name": "ng2-charts",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/ng2-charts@^4.0.0",
+      "bom-ref": "npm/ng2-charts@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "rxjs",
+      "version": "^6.6.6",
+      "purl": "pkg:npm/rxjs@^6.6.6",
+      "bom-ref": "npm/rxjs@^6.6.6"
+    },
+    {
+      "type": "library",
+      "name": "tslib",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/tslib@^2.0.0",
+      "bom-ref": "npm/tslib@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "zone.js",
+      "version": "^0.11.4",
+      "purl": "pkg:npm/zone.js@^0.11.4",
+      "bom-ref": "npm/zone.js@^0.11.4"
+    },
+    {
+      "type": "library",
+      "name": "json5",
+      "version": "^2.2.2",
+      "purl": "pkg:npm/json5@^2.2.2",
+      "bom-ref": "npm/json5@^2.2.2"
+    },
+    {
+      "type": "library",
+      "name": "tsconfig-paths",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/tsconfig-paths@^4.0.0",
+      "bom-ref": "npm/tsconfig-paths@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular-devkit/architect",
+      "version": "^0.1401.0",
+      "purl": "pkg:npm/@angular-devkit/architect@^0.1401.0",
+      "bom-ref": "npm/@angular-devkit/architect@^0.1401.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular-devkit/build-angular",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular-devkit/build-angular@^14.1.0",
+      "bom-ref": "npm/@angular-devkit/build-angular@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular-eslint/builder",
+      "version": "14.0.2",
+      "purl": "pkg:npm/@angular-eslint/builder@14.0.2",
+      "bom-ref": "npm/@angular-eslint/builder@14.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@angular-eslint/eslint-plugin",
+      "version": "14.0.2",
+      "purl": "pkg:npm/@angular-eslint/eslint-plugin@14.0.2",
+      "bom-ref": "npm/@angular-eslint/eslint-plugin@14.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@angular-eslint/eslint-plugin-template",
+      "version": "14.0.2",
+      "purl": "pkg:npm/@angular-eslint/eslint-plugin-template@14.0.2",
+      "bom-ref": "npm/@angular-eslint/eslint-plugin-template@14.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@angular-eslint/schematics",
+      "version": "14.0.2",
+      "purl": "pkg:npm/@angular-eslint/schematics@14.0.2",
+      "bom-ref": "npm/@angular-eslint/schematics@14.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@angular-eslint/template-parser",
+      "version": "14.0.2",
+      "purl": "pkg:npm/@angular-eslint/template-parser@14.0.2",
+      "bom-ref": "npm/@angular-eslint/template-parser@14.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@angular/cli",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/cli@^14.1.0",
+      "bom-ref": "npm/@angular/cli@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/compiler-cli",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/compiler-cli@^14.1.0",
+      "bom-ref": "npm/@angular/compiler-cli@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/language-service",
+      "version": "^14.1.0",
+      "purl": "pkg:npm/@angular/language-service@^14.1.0",
+      "bom-ref": "npm/@angular/language-service@^14.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^12.20.23",
+      "purl": "pkg:npm/@types/node@^12.20.23",
+      "bom-ref": "npm/@types/node@^12.20.23"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "^5.29.0",
+      "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^5.29.0",
+      "bom-ref": "npm/@typescript-eslint/eslint-plugin@^5.29.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^5.29.0",
+      "purl": "pkg:npm/@typescript-eslint/parser@^5.29.0",
+      "bom-ref": "npm/@typescript-eslint/parser@^5.29.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^8.18.0",
+      "purl": "pkg:npm/eslint@^8.18.0",
+      "bom-ref": "npm/eslint@^8.18.0"
+    },
+    {
+      "type": "library",
+      "name": "fs-extra",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/fs-extra@^10.0.0",
+      "bom-ref": "npm/fs-extra@^10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "fuzzy",
+      "version": "^0.1.3",
+      "purl": "pkg:npm/fuzzy@^0.1.3",
+      "bom-ref": "npm/fuzzy@^0.1.3"
+    },
+    {
+      "type": "library",
+      "name": "husky",
+      "version": "^5.1.3",
+      "purl": "pkg:npm/husky@^5.1.3",
+      "bom-ref": "npm/husky@^5.1.3"
+    },
+    {
+      "type": "library",
+      "name": "inquirer",
+      "version": "^6.2.2",
+      "purl": "pkg:npm/inquirer@^6.2.2",
+      "bom-ref": "npm/inquirer@^6.2.2"
+    },
+    {
+      "type": "library",
+      "name": "inquirer-autocomplete-prompt",
+      "version": "^1.0.1",
+      "purl": "pkg:npm/inquirer-autocomplete-prompt@^1.0.1",
+      "bom-ref": "npm/inquirer-autocomplete-prompt@^1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "jasmine-core",
+      "version": "~3.7.1",
+      "purl": "pkg:npm/jasmine-core@~3.7.1",
+      "bom-ref": "npm/jasmine-core@~3.7.1"
+    },
+    {
+      "type": "library",
+      "name": "jasmine-spec-reporter",
+      "version": "~5.0.0",
+      "purl": "pkg:npm/jasmine-spec-reporter@~5.0.0",
+      "bom-ref": "npm/jasmine-spec-reporter@~5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "jsonc-parser",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/jsonc-parser@^3.0.0",
+      "bom-ref": "npm/jsonc-parser@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "open",
+      "version": "^7.0.3",
+      "purl": "pkg:npm/open@^7.0.3",
+      "bom-ref": "npm/open@^7.0.3"
+    },
+    {
+      "type": "library",
+      "name": "ts-node",
+      "version": "^8.10.2",
+      "purl": "pkg:npm/ts-node@^8.10.2",
+      "bom-ref": "npm/ts-node@^8.10.2"
+    },
+    {
+      "type": "library",
+      "name": "tslint-angular",
+      "version": "^3.0.3",
+      "purl": "pkg:npm/tslint-angular@^3.0.3",
+      "bom-ref": "npm/tslint-angular@^3.0.3"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "~4.6.4",
+      "purl": "pkg:npm/typescript@~4.6.4",
+      "bom-ref": "npm/typescript@~4.6.4"
+    },
+    {
+      "type": "library",
+      "name": "genids",
+      "version": "unspecified",
+      "purl": "pkg:generic/genids",
+      "bom-ref": "native/genids@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "_check_vcd",
+      "version": "unspecified",
+      "purl": "pkg:generic/_check_vcd",
+      "bom-ref": "native/_check_vcd@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xft",
+      "version": "unspecified",
+      "purl": "pkg:generic/xft",
+      "bom-ref": "native/xft@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LTTngUST",
+      "version": "unspecified",
+      "purl": "pkg:generic/LTTngUST",
+      "bom-ref": "native/LTTngUST@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Threads",
+      "version": "unspecified",
+      "purl": "pkg:generic/Threads",
+      "bom-ref": "native/Threads@unspecified"
+    }
+  ]
+}

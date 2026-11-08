@@ -1,0 +1,3 @@
+# Architecture — L_OPENAIRINTERFACE
+
+See upstream documentation at https://openairinterface.org/
